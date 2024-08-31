@@ -1,0 +1,43 @@
+    1   rm ~/.bash_history
+    2  git config --global user.name "P-Olha"
+    3  git config --global user.email olga.zhelo@gmail.com
+    4  git clone https://github.com/P-Olha/HW_10.git
+    5   cd hw_10
+    6  touch text_ignore.txt
+    7  nano  .gitignore
+    8  git status
+    9  git add .gitignore
+   10   git commit .gitignore -m " added new line in file gitignore"
+   11   touch main_test.txt
+   12  git add main_test.txt
+   13  git commit main_test.txt -m "create a new file"
+   14  git branch develop
+   15  git checkout develop
+   16  rm ~/.bash_history
+   17   git config --global user.name "P-Olha"
+   18  git config --global user.email olga.zhelo@gmail.com
+   19  git clone https://github.com/P-Olha/HW_10.git
+   20  cd hw_10
+   21  touch text_ignore.txt
+   22  nano  .gitignore
+   23  git status
+   24   git add .gitignore
+   25  git commit .gitignore -m "added a new line in .gitignore"
+   26   touch main_test.txt
+   27  git add main_test.txt
+   28  git commit main_test.txt - "create a new file main_text.txt"
+   29  git commit main_test.txt -m "create a new file main_text.txt"
+   30  git branch develop
+   31  git checkout develop
+   32   touch develop_test.txt
+   33  git add develop_test.txt
+   34  git commit develop_test.txt -m "New file in new branch develop"
+   35  nano develop_test.txt
+   36  git status
+   37  git add develop_test.txt
+   38  git commit develop_test.txt -m "new text in file"
+   39  git checout main
+   40  git checkout main
+   41  git merge develop
+   42  git log
+   43  history > command_list.csv
